@@ -1,0 +1,26 @@
+/* line 12, ../../scss/themes/tomato.scss */
+body {
+  color: #222222;
+  letter-spacing: 1px; }
+
+/* line 17, ../../scss/themes/tomato.scss */
+a {
+  color: tomato; }
+
+/* line 21, ../../scss/themes/tomato.scss */
+p {
+  color: #888888; }
+
+/* line 25, ../../scss/themes/tomato.scss */
+.color_element {
+  color: tomato; }
+
+/* line 29, ../../scss/themes/tomato.scss */
+.color_bg {
+  background-color: tomato; }
+
+/* line 33, ../../scss/themes/tomato.scss */
+.color_border {
+  border-color: tomato; }
+
+/*# sourceMappingURL=tomato.css.map */

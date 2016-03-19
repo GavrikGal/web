@@ -1,0 +1,34 @@
+/* line 13, ../../scss/themes/light.scss */
+body {
+  color: #222222;
+  letter-spacing: 1px; }
+
+/* line 18, ../../scss/themes/light.scss */
+a {
+  color: #7bf; }
+
+/* line 22, ../../scss/themes/light.scss */
+p {
+  color: #888888; }
+
+/* line 26, ../../scss/themes/light.scss */
+.color_element {
+  color: #7bf; }
+
+/* line 30, ../../scss/themes/light.scss */
+.color_bg {
+  background-color: #7bf; }
+
+/* line 34, ../../scss/themes/light.scss */
+.color_border {
+  border-color: #7bf; }
+
+/* line 38, ../../scss/themes/light.scss */
+.light_border {
+  border-color: #fff; }
+
+/* line 42, ../../scss/themes/light.scss */
+.body_bg {
+  background-color: #e7fbff; }
+
+/*# sourceMappingURL=light.css.map */

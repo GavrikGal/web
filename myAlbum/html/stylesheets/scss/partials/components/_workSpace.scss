@@ -1,0 +1,23 @@
+.preloadWorkSpace {
+  position: absolute;
+  left: -5000px;
+}
+
+.workSpace {
+  position: relative;
+  width: 1200px;
+  height: 1800px;
+  background: #eeeeee url(../img/wooden-table.jpg);
+  padding: 0;
+  margin: 0 auto;
+  border: 10px solid #111111;
+  display: none;
+}
+
+.workSpace_filter {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: block;
+  background-color: royalblue;
+}

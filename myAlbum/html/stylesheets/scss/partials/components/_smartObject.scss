@@ -1,0 +1,39 @@
+.smartObject {
+  border: 10px solid white;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  position: relative;
+  display: block;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.smartStartContent {
+  width: 160px;
+  height: 240px;
+  background-color: #eeeeee;
+  opacity: 0.9;
+}
+
+.draggableWrapper {
+  border: 1px solid #ff5555;
+  position: absolute;
+  display: block;
+}
+
+.oldSmartObject {
+  border: 10px solid #fff;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  position: absolute;
+  display: block;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+}

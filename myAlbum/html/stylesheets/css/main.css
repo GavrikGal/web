@@ -1,0 +1,83 @@
+/* line 3, ../scss/partials/layout/_body.scss */
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  background-color: #333333;
+  -webkit-font-smoothing: antialised; }
+
+/* line 14, ../scss/partials/layout/_body.scss */
+.hidden {
+  display: none; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/* line 1, ../scss/partials/components/_workSpace.scss */
+.preloadWorkSpace {
+  position: absolute;
+  left: -5000px; }
+
+/* line 6, ../scss/partials/components/_workSpace.scss */
+.workSpace {
+  position: relative;
+  width: 1200px;
+  height: 1800px;
+  background: #eeeeee url(../img/wooden-table.jpg);
+  padding: 70px;
+  margin: 0 auto;
+  border: 20px solid #111111;
+  display: none; }
+
+/* line 1, ../scss/partials/components/_smartObject.scss */
+.smartObject {
+  border: 10px solid white;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  position: relative;
+  display: block;
+  padding: 0px;
+  left: 0px;
+  top: 0px; }
+  /* line 11, ../scss/partials/components/_smartObject.scss */
+  .smartObject:hover {
+    cursor: pointer; }
+
+/* line 16, ../scss/partials/components/_smartObject.scss */
+.smartStartContent {
+  width: 160px;
+  height: 240px;
+  background-color: #eeeeee;
+  opacity: 0.9; }
+
+/* line 23, ../scss/partials/components/_smartObject.scss */
+.draggableWrapper {
+  border: 1px solid #ff5555;
+  position: absolute;
+  display: block; }
+
+/* line 29, ../scss/partials/components/_smartObject.scss */
+.oldSmartObject {
+  border: 10px solid #fff;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  position: absolute;
+  display: block;
+  padding: 0px;
+  left: 0px;
+  top: 0px; }
+
+/*# sourceMappingURL=main.css.map */

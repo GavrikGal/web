@@ -1,0 +1,9 @@
+@import "../partials/vendor/bourbon/bourbon";
+
+@include font-face("Raleway", "../../fonts/RalewayRegular/RalewayRegular", normal, $file_formats: eot woff ttf);
+
+@include font-face("Raleway", "../../fonts/RalewayBold/RalewayBold", bold, $file_formats: eot woff ttf);
+
+@include font-face("Raleway", "../../fonts/RalewayLight/RalewayLight", 300, $file_formats: eot woff ttf);
+
+@include font-face("Raleway", "../../fonts/RalewaySemiBold/RalewaySemiBold", 600, $file_formats: eot woff ttf);

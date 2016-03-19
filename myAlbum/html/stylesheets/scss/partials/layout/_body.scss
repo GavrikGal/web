@@ -1,0 +1,15 @@
+@import "../../partials/vendor/bourbon/bourbon";
+
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  //overflow: hidden
+  -webkit-font-smoothing: antialised;
+}
+
+.hidden {
+  display: none;
+}

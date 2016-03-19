@@ -1,0 +1,39 @@
+{
+    "sass.enabled": false,
+    "sass.compiler": "ruby",
+    "path": {
+        "html/stylesheets/scss/*.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "imagePath": null,
+                "sourceComments": true,
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": true,
+            "themes.theme": "dark-theme"
+        },
+        "html/stylesheets/scss/themes/*.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../../css/themes/",
+                "imagePath": null,
+                "sourceComments": true,
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": true,
+            "themes.theme": "dark-theme"
+        },
+        "html/stylesheets/scss/typography/*.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../../css/typography/",
+                "imagePath": null,
+                "sourceComments": true,
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": false,
+            "themes.theme": "dark-theme"
+        }
+    }
+}

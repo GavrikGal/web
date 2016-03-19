@@ -1,0 +1,35 @@
+@import "../partials/vendor/bourbon/bourbon";
+
+$color: tomato;
+$text_color: #888888;
+$main_color: #222222;
+$bg_light: #fafafa;
+
+@mixin kerning($kerning) {
+  letter-spacing: $kerning + px;
+}
+
+body {
+  color: $main_color;
+  @include kerning(1);
+}
+
+a {
+  color: $color;
+}
+
+p {
+  color: $text_color;
+}
+
+.color_element {
+  color: $color;
+}
+
+.color_bg {
+  background-color: $color;
+}
+
+.color_border {
+  border-color: $color;
+}
